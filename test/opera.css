@@ -1,3 +1,5 @@
+/*open nav*/
+
 .navbar {
     background-color: rgba(255, 255, 254, 0.8) !important;
 }
@@ -66,8 +68,6 @@
     color: #ffffff;
     padding-right: 10px;
 }
-
-
 
 .navbar-collapse {
     padding-left: 22px;
@@ -246,6 +246,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*end nav*/
+
+/*start content*/
+
 .home {
     width: 1519.5px;
     height: 4063px;
@@ -283,7 +287,7 @@
     border: 1px solid rgba(0, 84, 222, 0.6);
     background-color: #0060fe;
     color: white;
-    border-radius: 25px;
+    border-radius: 30px;
     padding: 15px 30px;
     font-weight: bold;
     padding-right: 33px;
@@ -510,6 +514,7 @@
 
 .d4 {
     margin: 8px 0 32px 0;
+    line-height: normal;
 }
 
 .more {
@@ -555,7 +560,8 @@
     left: 60px;
     top: -15px;
 }
-.memberred11{
+
+.memberred11 {
     border: 10px solid #fa1e4e;
     border-radius: 25px;
     background-color: #fa1e4e;
@@ -564,7 +570,8 @@
     left: 29px;
     top: 3px;
 }
-.memberblue22{
+
+.memberblue22 {
     border: 5px solid #2577fe;
     border-radius: 25px;
     background-color: #2577fe;
@@ -573,7 +580,8 @@
     left: 460px;
     bottom: 30px;
 }
-.memberred22{
+
+.memberred22 {
     border: 10px solid #fa1e4e;
     border-radius: 25px;
     background-color: #fa1e4e;
@@ -582,7 +590,8 @@
     left: 410px;
     bottom: 0px;
 }
-.memberblue33{
+
+.memberblue33 {
     border: 8px solid #2577fe;
     border-radius: 25px;
     background-color: #2577fe;
@@ -591,44 +600,51 @@
     left: 389px;
     bottom: 62px;
 }
-.xam{
+
+.xam {
     width: 1519.200px;
     background-color: #fafafa;
     display: flex;
     padding: 50px 0;
     min-height: 508px;
 }
-.d0{
+
+.d0 {
     position: relative;
     width: 1024px;
     margin: 0 227.6px;
     padding: 0 20px;
 }
-.d1{
+
+.d1 {
     position: absolute;
     height: 365.2px;
     padding: 0 15px;
     width: 497px;
     float: left;
 }
-.d5 img{
+
+.d5 img {
     position: absolute;
     right: -20px;
     border-radius: 212px;
 }
-.thefourth03 img{
+
+.thefourth03 img {
     position: absolute;
     bottom: -28px;
     right: -94px;
 }
-.trang{
+
+.trang {
     width: 1519.200px;
     background-color: white;
     display: flex;
     padding: 50px 0;
     min-height: 508px;
 }
-.thefifth01{
+
+.thefifth01 {
     position: absolute;
     height: 355.2px;
     padding: 0 15px;
@@ -637,17 +653,21 @@
     right: 0;
     top: 45px;
 }
-.thefifth03 img{
+
+.thefifth03 img {
     position: absolute;
     bottom: -28px;
     left: 407px;
 }
-.thesixth img{
+
+.thesixth img {
     position: absolute;
     bottom: -20px;
     right: -90px;
 }
+
 /* carousel */
+
 .out {
     width: 321.33px;
     height: 200px;
@@ -685,18 +705,22 @@
     font-size: 17px;
 }
 
-.ctn{
+.ctn {
     margin-top: 60px;
+    margin-bottom: 40px;
 }
-.col-12> h2{
+
+.col-12>h2 {
     text-align: center;
     font-size: 3rem;
 }
-.col-12>span{
+
+.col-12>span {
     text-align: center;
     display: block;
     margin-top: 20px;
 }
+
 .items {
     z-index: 1;
     width: 100% !important;
@@ -730,8 +754,7 @@
     }
 }
 
-#btn-prev,
-#btn-next {
+#btn-prev, #btn-next {
     z-index: 2;
     font-size: 4rem;
     cursor: pointer;
@@ -744,7 +767,6 @@
 #btn-next {
     margin-left: -4rem;
 }
-
 
 /* paginator */
 
@@ -766,4 +788,444 @@
 
 .dot--active {
     background-color: gray;
+}
+
+/*phan  da den luc chuyen sang opera*/
+
+.ngoai {
+    background-color: #fafafa;
+    min-height: 580px;
+    position: relative;
+}
+
+/*content */
+
+.phan1 {
+    width: 527px;
+    height: 363.6px;
+    padding: 0 15px;
+    position: absolute;
+    left: 230px;
+    top: 100px;
+}
+
+.phan1>span {
+    margin-bottom: 40px;
+    display: block;
+    letter-spacing: .25em;
+    color: #0060fe;
+    font-size: 14px;
+}
+
+.phan1 h2 {
+    font-size: 3.5rem;
+    color: black;
+}
+
+.phan1>p {
+    margin: 20.8px 0;
+    font-size: 17.2px;
+    letter-spacing: .02em;
+    color: black;
+    line-height: 1.3;
+}
+
+.phan1>div>a {
+    color: white;
+    padding-left: 45px;
+}
+
+.phan1>div {
+    background-color: #fa1e4e;
+    width: 224.96px;
+    height: 56px;
+    border: 1px solid #fa1e4e;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.phan1>div>i {
+    color: white;
+    padding-left: 5px;
+    padding-top: 3px;
+    font-size: 20px;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.phan1>div:hover {
+    text-decoration: none;
+    background-color: #e00535;
+}
+
+.phan1>div:hover i {
+    padding-left: 15px;
+}
+
+.phan1>div>a:hover {
+    text-decoration: none;
+}
+
+/* img*/
+
+.phan2 {
+    position: absolute;
+    right: 130px;
+}
+
+.phan2 img {
+    height: 495px;
+    margin-top: 20px;
+}
+
+/* end phan  da den luc chuyen sang opera*/
+
+/*duyet bat cu noi dau*/
+
+.ngoai2 {
+    padding: 50px 0;
+    min-height: 777px;
+    position: relative;
+}
+
+/*content*/
+
+.phan11 {
+    width: 527px;
+    height: 292.2px;
+    padding: 0 15px;
+    position: absolute;
+    left: 230px;
+    top: 145px;
+}
+
+.phan11 span {
+    margin-bottom: 10px;
+    display: block;
+    letter-spacing: .25em;
+    color: #0060fe;
+    font-size: 14px;
+}
+
+.phan11 h2 {
+    font-size: 3.5rem;
+    color: black;
+}
+
+.phan11>p {
+    margin: 20.8px 0;
+    font-size: 18px;
+    letter-spacing: .02em;
+    color: black;
+    line-height: 1.3;
+}
+
+.phan11>div>a {
+    color: black;
+    padding-left: 20px;
+}
+
+.phan11>div {
+    width: 127.68px;
+    height: 42.8px;
+    border: 1px solid black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.phan11>div>i {
+    padding-left: 5px;
+    padding-top: 3px;
+    font-size: 20px;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.phan11>div:hover {
+    background-color: #f4f4f4;
+}
+
+.phan11>div:hover i {
+    padding-left: 10px;
+}
+
+.phan11>div>a:hover {
+    text-decoration: none;
+}
+
+/*img*/
+
+.phan22 {
+    position: absolute;
+    right: 130px;
+    z-index: -1;
+    left: 610px;
+}
+
+/*member*/
+
+.memberblue111 {
+    border-radius: 4rem;
+    position: absolute;
+    background-color: #0299ff;
+    width: 10px;
+    height: 10px;
+    right: 293px;
+    margin-top: 60px;
+}
+
+.memberblue222 {
+    width: 21px;
+    height: 21px;
+    right: 325px;
+    margin-top: 85px;
+    background-color: #2577fe;
+    border-radius: 4rem;
+    position: absolute;
+}
+
+.memberred111 {
+    background-color: #fa1e4e;
+    width: 47px;
+    height: 47px;
+    right: 229px;
+    margin-top: 97px;
+    border-radius: 4rem;
+    position: absolute;
+}
+
+/*out card*/
+
+.trong2 {
+    min-height: 468px;
+    margin: 50px 25px 25px 25px;
+}
+
+/*in card*/
+
+.card1 {
+    width: 497px;
+    height: 136px;
+    padding: 20px;
+    box-shadow: 0 8px 80px -12px hsla(0, 0%, 92.2%, 1);
+    position: relative;
+    border-radius: 25px;
+    margin: 0 15px 20px 15px
+}
+
+.imgcard1 {
+    width: 85px;
+    height: 82.5px;
+    margin: 0 15px 0 0;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    float: left;
+}
+
+.imgcard1 img {
+    width: 45px;
+}
+
+/*content*/
+
+.content1 {
+    height: 86px;
+    border-radius: 25px;
+}
+
+.content1>h2 {
+    margin: 0;
+}
+
+.content1>h2>a {
+    color: inherit;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.content1>p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.star {
+    color: #fa1e4e;
+}
+
+.bxright {
+    transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #a9a9a9;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 42px;
+}
+
+.bxright:hover {
+    color: black;
+}
+
+.content1>h2:hover>a {
+    text-decoration: none;
+}
+
+.starno {
+    opacity: .3;
+}
+
+/* left or right */
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/* ngoai3 */
+
+.ngoai3 {
+    margin-bottom: 100px;
+    min-height: 894.69px;
+    width: auto;
+    padding: 50px 20px;
+    display: block;
+}
+
+.ngoai3>p {
+    text-align: center;
+    color: #0060fe;
+}
+
+.ngoai3>h1 {
+    margin: 15px 0 50px 0;
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.trong3 {
+    width: 32rem;
+    border: none;
+    margin: 0 15px 0 15px;
+}
+
+.trong3>img {
+    width: 32rem;
+    float: left;
+    border-radius: 25px;
+}
+
+.trong31 {
+    padding: 0;
+}
+
+.trong31>h3 {
+    margin: 32px 0 24px 0;
+}
+
+.trong31>p {
+    margin: 24px 0 24px 0;
+    line-height: normal;
+    font-size: 1.1rem;
+}
+
+.trong31>a {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    height: 39px;
+    width: 180px;
+    display: block;
+    border-radius: 25px;
+}
+
+.trong31>a>i {
+    transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.trong31>a:hover {
+    background-color: #f4f4f4;
+    color: #000;
+    border: 1px solid black;
+}
+
+.trong31>a:hover>i {
+    margin-left: 10px;
+}
+
+/*phan9*/
+.thenight01 {
+    position: absolute;
+    height: 417.8px;
+    padding: 0 15px;
+    width: 614.83px;
+    float: right;
+    right: 0;
+    top: 20px;
+}
+
+.thenight02 img {
+    border-radius: 25rem;
+}
+
+.d6 {
+    margin: 32px 0;
+    line-height: 1;
+    font-size: 3.5rem;
+    color: black;
+}
+.btn9{
+    border: 1px solid black;
+    background-color: white;
+    width: 238.33px;
+    height: 42.8px;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+}
+.btn9 a {
+    color: black;
+    height: 22.400px;
+    width: 198.325px;
+    letter-spacing: 0em;
+    padding-left: 16px;
+    font-size: 15px;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn9 i {
+    color: black;
+    font-size: 18px;
+}
+
+.btn9:hover a {
+    width: 203.325px;
+    text-decoration: none;
+}
+
+.btn9:hover {
+    background-color: #f4f4f4;
+}
+.thenight03 img {
+    position: absolute;
+    border-radius: 1rem;
+    left: -30px;
+    top: -50px;
+}
+.hello{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: .8rem 2.3rem 2.3rem 2.3rem; 
+    color: #fff;
+    background-color: #fa1e4e;
+    padding: 0.8rem 2.7rem 1rem;
+    line-height: 1.3;
+    text-align: left;
+    width: 204.59px;
+    height: 88.8px;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-top: -20px;
 }

@@ -468,22 +468,12 @@
 .thethird>div>img {
     padding: 0 15px 0 0;
 }
-
-.list-group-item {
+.dichuyen{
     position: absolute;
-    width: 26px;
-    height: 26px;
-    padding: 0px;
-    border: none;
-    top: -86px;
-    left: 815px;
-    background: none;
+    bottom: 18px;
+    left: 739px;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
-.list-group-item:hover {
-    background: none;
-}
-
 .dtcbm a:hover {
     text-decoration: none;
     background-color: #004dcb;
